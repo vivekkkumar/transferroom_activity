@@ -28,8 +28,8 @@ def main(user_data_path, profile_path, file_output_path):
 
 if __name__ == "__main__":
     # hard coding these values for this script, later can be extended to use sys.argv to get command line params
-    user_data_path = "/path/to/userid-timestamp-artid-artname-traid-traname.tsv"
-    profile_path = "/path/to/userid-profile.tsv"
-    file_output_path = "/path/to/output/top_10_songs.csv"
+    user_data_path = "path/userid-timestamp-artid-artname-traid-traname.tsv"
+    profile_path = "path/userid-profile.tsv"
+    file_output_path = "src/resources/output/top_10_songs.csv"
 
     main(user_data_path, profile_path, file_output_path)
