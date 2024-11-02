@@ -5,6 +5,7 @@ This repository has an outline of design/architecture of how to evolve or refact
 The design choices are explained as we go through each layer of the data processing system.
 1. The codebase is not an implementation, rather it is just an outline of how to implement things, in the lakehouse architecture which I introduced in the existing design or seperation of concerns.
 2. The CI/CD is not considered but touched on it, with the idea of workflows and how the images/applications are deployed.
+3. Monitoring and ops are not discussed in detail but it was considered in the usecase and it is matter of implementation detail.
 
 **Architecture explanation**
 
