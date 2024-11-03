@@ -9,7 +9,7 @@ The design choices are explained as we go through each layer of the data process
 
 **Architecture explanation**
 
-![](../../Desktop/Screenshot%202024-11-01%20at%2010.22.26.png)
+![](images/architecture.png)
 
 We have multiple layers here as opposed to the current system design - which are outlined with dashes. The main objective is to 
 1. Reduce the workload on the SQL server
@@ -39,7 +39,7 @@ EMR/Dataproc are cost effective but might require more ops, but Databricks provi
 the latter is a set and forget kind of tool with less ops but with more integrations with other system with low ops.
 5. All of these jobs are scheduled through Airflow/prefect, hourly or daily depending on the need and makes the system/lake idempotent
 
-![](../../Desktop/Screenshot%202024-11-01%20at%2010.22.06.png)
+![](images/etl.png)
 
 **Serving Layer**
 
